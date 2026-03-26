@@ -1,2 +1,2 @@
 # stubify-pyrosetta
-Scripts to generate type-stub files for pyrosetta using pybind11-stubgen and add them to the local pyrosetta package for static type checkers and autocompletion.
+Scripts to generate type-stub files for pyrosetta using pybind11-stubgen and add them to the local pyrosetta package for static type checkers and autocompletion. Includes a step-through jupyter notebook and a bash script with the same contents: install pyrosetta (if not installed), install pybind11-stubgen, generate stubs in the local directory, copy stubs to the system site-packages pyrosetta install location, and delete generated stubs.
