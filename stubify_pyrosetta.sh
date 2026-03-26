@@ -1,6 +1,6 @@
 if ! command -v python >/dev/null 2>&1
 then
-    echo Please install python or activate the appropriate conda environment.
+    echo Please install python or activate a python environment.
 fi
 
 # install pyrosetta [can comment if you already have it or have an old version]
